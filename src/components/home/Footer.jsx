@@ -1,16 +1,19 @@
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
   return (
     <>
-                <footer className="bg-[#022c22] w-full max-w-[1350px] mx-auto text-white pt-8 lg:pt-12 px-4 sm:px-8 md:px-16 lg:px-28 rounded-tl-3xl rounded-tr-3xl overflow-hidden mt-40">
+
+                <footer className="bg-[#131314] w-full max-w-[1350px] mx-auto text-white pt-8 lg:pt-12 px-4 sm:px-8 md:px-16 lg:px-28 rounded-tl-3xl rounded-tr-3xl overflow-hidden  mt-40">
                     <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-6 gap-8 md:gap-12">
                         
                         <div className="lg:col-span-3 space-y-6">
-                            <a href="https://prebuiltui.com" className="block">
-                                
+                            <a href="/logo.svg" alt="Logo" className="h-10 w-auto flex items-center gap-2">
+                                <svg width="157" height="40" viewBox="0 0 157 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d=" " stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
                             </a>
-                            <p className="text-sm/6 text-neutral-400 max-w-96">AI Resume Builder empowers you to craft modern job-winning resumes with ease. Build, customize, and showcase your skills to stand out in today's competitive job market.</p>
+                            <p className="text-sm/6 text-neutral-300 max-w-96"></p>
                             <div className="flex gap-5 md:gap-6 order-1 md:order-2">
                                 {/* X (Twitter) */}
                                 <a href="#" className="text-white hover:text-gray-300">
@@ -84,19 +87,18 @@ const footer = () => {
                     </div>
 
                     <div className="max-w-7xl mx-auto mt-12 pt-4 border-t border-neutral-700 flex justify-between items-center">
-                        <p className="text-neutral-400 text-sm">© 2026 AIBUILDER Desig</p>
-                        <p className='text-sm text-neutral-400'>All right reserved.</p>
+                        <p className="text-neutral-400 text-sm">AI Resume Builder</p>
+                        <p className='text-sm text-neutral-400'>All right you are in good path.</p>
                     </div>
                     <div className="relative">
                         <div className="absolute inset-x-0 bottom-0 mx-auto w-full max-w-3xl h-full max-h-64 bg-green-500 rounded-full blur-[170px] pointer-events-none"/>
                         <h3 className="text-center font-extrabold leading-[0.7] text-transparent text-[clamp(3rem,15vw,15rem)] [-webkit-text-stroke:1px_#0D542B] mt-6" >
-                            AIBUILDER
+                            RESUME
                         </h3>
                     </div>
                 </footer>
 
-
-  <style>
+            <style>
                 {`
                     @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
                     *{
@@ -108,6 +110,4 @@ const footer = () => {
   )
 }
 
-     
-
-export default footer
+export default Footer

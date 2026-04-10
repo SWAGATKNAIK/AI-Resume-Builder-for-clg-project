@@ -4,8 +4,8 @@ export const dummyResumeData = [
     {
         // ----------------------------------------------------- Resume 1 ------------------------------------------------------
         personal_info: {
-            full_name: "Swagat Naik",
-            email: "swagat@example.com",
+            full_name: "Alex Smith",
+            email: "alex@example.com",
             phone: "0 123456789",
             location: "NY, USA",
             linkedin: "https://www.linkedin.com",
@@ -15,7 +15,7 @@ export const dummyResumeData = [
         },
         _id: "68d2a31a1c4dd38875bb037e",
         userId: "68c180acdf1775dfd02c6d87",
-        title: "Swagat's Resume",
+        title: "Alex's Resume",
         public: true,
         professional_summary: "Highly analytical Data Analyst with 6 years of experience transforming complex datasets into actionable insights using SQL, Python, and advanced visualization tools. ",
         skills: ["JavaScript", "React JS", "Full Stack Development", "Git", "GitHub", "NextJS", "Express", "NodeJS", "TypeScript"],
@@ -87,18 +87,18 @@ export const dummyResumeData = [
     {
         // ----------------------------------------------------- Resume 2 ------------------------------------------------------
         personal_info: {
-            full_name: "Trupti Ranjan Mohanty",
-            email: "trupti.mohanty@example.com",
+            full_name: "Jordan Lee",
+            email: "jordan.lee@example.com",
             phone: "0 987654321",
             location: "San Francisco, CA, USA",
-            linkedin: "https://www.linkedin.com/in/truptimohanty",
-            website: "https://www.truptimohanty.dev",
+            linkedin: "https://www.linkedin.com/in/jordanlee",
+            website: "https://www.jordanlee.dev",
             profession: "Frontend Engineer",
             image: dummy_profile
         },
         _id: "78e3b42c2d5ff49286cc148f",
         userId: "78d2e0bdcf2886efg03e7e98",
-        title: "Trupti's Resume",
+        title: "Jordan's Resume",
         public: true,
         professional_summary: "Creative and detail-oriented Frontend Engineer with 5+ years of experience crafting responsive, user-centric web applications using React, Vue, and modern CSS frameworks.",
         skills: ["HTML5", "CSS3", "JavaScript", "React", "Vue.js", "SASS", "Tailwind CSS", "Figma", "Web Accessibility", "REST APIs"],
@@ -162,8 +162,8 @@ export const dummyResumeData = [
     {
         // ----------------------------------------------------- Resume 3 ------------------------------------------------------
         personal_info: {
-            full_name: "Bikash Ranjan Das",
-            email: "bikash.das@example.com",
+            full_name: "Riley Morgan",
+            email: "riley.morgan@example.com",
             phone: "0 1122334455",
             location: "Austin, TX, USA",
             linkedin: "https://www.linkedin.com/in/rileymorgan",
